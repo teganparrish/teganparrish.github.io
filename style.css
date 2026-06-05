@@ -57,6 +57,17 @@ a:hover {
 .socials {
   margin-top: 30px;
 }
+.pull-quote::before {
+  content: '\201C';
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 14rem;
+  line-height: 0.6;
+  color: #d4c9b0; /* slightly darker than --cream so it shows */
+  position: absolute;
+  top: 3rem;
+  left: 6vw;
+  pointer-events: none;
+}
 
 /* ── PUBLICATIONS PAGE ── */
 
